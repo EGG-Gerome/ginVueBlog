@@ -1,0 +1,19 @@
+mysql:
+  host: 127.0.0.1
+  port: 1103
+  db: gvb_db
+  user: root
+  password: 123456
+  log_level: dev  # 代表开发环境
+
+logger:
+  level: info
+  prefix: '[gvb]' # 前缀
+  director: log
+  show-line: true   # 是否显示行号
+  log-in-console: true  # 是否显示文件路径
+
+system:
+  host: 0.0.0.0 # 运行在所有的 ip 上
+  port: 8080
+  env: dev
